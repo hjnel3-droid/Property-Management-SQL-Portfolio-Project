@@ -48,7 +48,7 @@ The database consists of 5 related tables:
 
 ## Business Problems and Queries
 
-### Query 1 — Overdue Payments with Tenant and Property Details
+### Query 1: Overdue Payments with Tenant and Property Details
 **Business problem:** Extract all overdue payments with tenant name, property, 
 unit number, and amount due so the property manager can follow up with tenants.
 
@@ -56,7 +56,7 @@ unit number, and amount due so the property manager can follow up with tenants.
 
 ---
 
-### Query 2 — Tenants with Missing Contact Information
+### Query 2: Tenants with Missing Contact Information
 **Business problem:** Identify tenants where email or phone number is missing 
 so records can be completed before lease renewals or maintenance communications.
 
@@ -64,7 +64,7 @@ so records can be completed before lease renewals or maintenance communications.
 
 ---
 
-### Query 3 — Active Leases Expiring Within 6 Months
+### Query 3:Active Leases Expiring Within 6 Months
 **Business problem:** Surface all active leases due to expire within the next 
 6 months so the renewals team can initiate contact ahead of expiry.
 
@@ -72,7 +72,7 @@ so records can be completed before lease renewals or maintenance communications.
 
 ---
 
-### Query 4 — Rent Collection Summary by Property
+### Query 4: Rent Collection Summary by Property
 **Business problem:** Produce a property-level summary of total rent due vs 
 total collected vs outstanding balance, ordered by worst performing properties first.
 
@@ -80,7 +80,7 @@ total collected vs outstanding balance, ordered by worst performing properties f
 
 ---
 
-### Query 5 — Tenants with Multiple Overdue Payments
+### Query 5: Tenants with Multiple Overdue Payments
 **Business problem:** Flag tenants with 2 or more overdue payments for 
 escalation to property management.
 
@@ -88,7 +88,7 @@ escalation to property management.
 
 ---
 
-### Query 6 — Maintenance Request Summary by Property and Priority
+### Query 6: Maintenance Request Summary by Property and Priority
 **Business problem:** Generate a summary of open maintenance requests grouped 
 by property and priority level so the maintenance team can allocate resources effectively.
 
@@ -96,7 +96,7 @@ by property and priority level so the maintenance team can allocate resources ef
 
 ---
 
-### Query 7 — Unresolved Critical Maintenance Requests Older Than 30 Days
+### Query 7: Unresolved Critical Maintenance Requests Older Than 30 Days
 **Business problem:** Identify critical maintenance requests that remain unresolved 
 after 30 days so they can be escalated immediately.
 
@@ -104,7 +104,7 @@ after 30 days so they can be escalated immediately.
 
 ---
 
-### Query 8 — Regional Revenue Summary
+### Query 8: Regional Revenue Summary
 **Business problem:** Produce a regional breakdown of total rent collected 
 so leadership can assess portfolio performance by geography.
 
@@ -112,7 +112,7 @@ so leadership can assess portfolio performance by geography.
 
 ---
 
-### Query 9 — Tenants with Both Payment Issues and Open Maintenance Requests
+### Query 9: Tenants with Both Payment Issues and Open Maintenance Requests
 **Business problem:** Identify high-risk tenants who have overdue payments 
 and unresolved maintenance requests simultaneously, for combined escalation.
 
@@ -120,7 +120,7 @@ and unresolved maintenance requests simultaneously, for combined escalation.
 
 ---
 
-### Query 10 — Data Correction: Partial Payment Update
+### Query 10: Data Correction: Partial Payment Update
 **Business problem:** A tenant completed a previously partial payment. 
 Update the payment record to reflect the full amount paid and correct the status.
 
