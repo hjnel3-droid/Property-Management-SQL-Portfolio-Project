@@ -137,25 +137,28 @@ before-and-after SELECT verification
 4. Run `schema/02_InsertData.sql` to populate the dataset
 5. Open any query file in the `queries/` folder and execute against `PropertyManagementDB`
 
+---
+
+## Project Structure
+
+```
 PropertyManagement-SQL/
-│
 ├── README.md
 ├── schema/
 │   ├── 01_CreateDatabase.sql
 │   └── 02_InsertData.sql
 └── queries/
-├── Query1_OverduePayments.sql
-├── Query2_MissingContacts.sql
-├── Query3_ExpiringLeases.sql
-├── Query4_RentCollectionSummary.sql
-├── Query5_MultipleOverduePayments.sql
-├── Query6_MaintenanceSummary.sql
-├── Query7_CriticalUnresolvedMaintenance.sql
-├── Query8_RegionalRevenueSummary.sql
-├── Query9_PaymentAndMaintenanceIssues.sql
-└── Query10_DataCorrection.sql
-
----
+    ├── Query1_OverduePayments.sql
+    ├── Query2_MissingContacts.sql
+    ├── Query3_ExpiringLeases.sql
+    ├── Query4_RentCollectionSummary.sql
+    ├── Query5_MultipleOverduePayments.sql
+    ├── Query6_MaintenanceSummary.sql
+    ├── Query7_CriticalUnresolvedMaintenance.sql
+    ├── Query8_RegionalRevenueSummary.sql
+    ├── Query9_PaymentAndMaintenanceIssues.sql
+    └── Query10_DataCorrection.sql
+```
 
 ## Tools Used
 - Microsoft SQL Server 2025 Express
