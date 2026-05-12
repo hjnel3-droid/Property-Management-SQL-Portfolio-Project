@@ -1,4 +1,4 @@
-# Property Management SQL Analysis — MRI ERP Simulation
+# Property Management SQL Analysis - MRI ERP Simulation
 
 Microsoft SQL Server | T-SQL | SSMS | Data Analysis | ERP Systems
 
