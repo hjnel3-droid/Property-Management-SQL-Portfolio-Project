@@ -14,7 +14,7 @@ Microsoft SQL Server | T-SQL | SSMS | Data Analysis | ERP Systems
 This project simulates the data environment of a property management ERP system, 
 modelled on platforms such as MRI Software. It demonstrates core SQL Developer 
 skills including data extraction, aggregation, date logic, NULL handling, 
-multi-table joins, and data correction — applied to realistic business problems 
+multi-table joins, and data correction - applied to realistic business problems 
 across a relational database schema.
 
 The project was built using Microsoft SQL Server 2025 Express and SQL Server 
